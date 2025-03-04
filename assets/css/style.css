@@ -375,7 +375,7 @@ aside div p:last-child {
 /* SIDE BUTTONS */
 
 .side-buttons {
-  position: fixed;
+  position: absolute;
   right: 0;
 
   padding: 5px 15px;
@@ -388,13 +388,17 @@ aside div p:last-child {
   z-index: 3;
 }
 
+body {
+  position: relative;
+}
+
 #plus {
   color: #2b65c0;
-  bottom: 190px;
+  top: 90%;
 }
 #calendar {
   color: #2b65c0;
-  bottom: 120px;
+  top: 93%;
 }
 #top-side {
   color: #f65d5c;
@@ -403,12 +407,10 @@ aside div p:last-child {
 
 @media screen and (min-width: 1200px) {
   #plus {
-    color: #2b65c0;
-    /* top: 50px; */
+    top: 10%;
   }
   #calendar {
-    color: #2b65c0;
-    /* top: 120px; */
+    top: 15%;
   }
 }
 
