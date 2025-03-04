@@ -130,7 +130,6 @@ section h2 {
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 
-/* aggiungi pulsanti laterali che cambiano in base al media  fixed*/
 
 h1 {
   font-size: 2.6rem;
@@ -143,6 +142,7 @@ h1 {
 
 #underline-span {
   position: relative;
+  white-space: nowrap;
   
 }
 
@@ -405,7 +405,7 @@ body {
   bottom: 50px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 700px) {
   #plus {
     top: 10%;
   }
